@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+              integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/js/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc/javascripts/all.js'/>
+    </head>
+
+    <body>
+      <!-- Navigation -->
+
+      <div style="background-image: url('stars2.jpg');">
+
+      <nav class="navbar navbar-dark bg-inverse">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ideas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Learn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">More info</a>
+      </li>
+    </ul>
+  </nav>
+
+  <br/>
+
+
+      <!-- You'll be wrapping this content into a jumbotron, and adding more classes -->
+      <form action="Rihohitosugi@ocsi.org" method="get">
+        <fieldset>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+        </fieldset>
+        <fieldset>
+          <label for="message">Message</label>
+          <textarea id="message" name="body" rows="3"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <fieldset class="form-group">
+   <label for="street">Street address</label>
+   <input type="text" class="form-control" id="street" placeholder="123 Main St.">
+ </fieldset>
+ <fieldset class="form-group">
+   <label for="city">City</label>
+   <input type="text" class="form-control" id="city" placeholder="Anytown">
+ </fieldset>
+ <fieldset class="form-group">
+  <label for="state">State</label>
+  <select class="form-control" id="state">
+    <option>Alaska</option>
+    <option>Washington</option>
+    <option>Oregon</option>
+    <option>California</option>
+    <option>Hawaii</option>
+  </select>
+</fieldset>
+<fieldset class="form-group">
+  <label for="handling">Special delivery instructions</label>
+  <textarea class="form-control" id="handling" rows="3"></textarea>
+</fieldset>
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Send button</button>
+
+      </form>
+
+</html>
